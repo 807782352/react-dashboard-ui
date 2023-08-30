@@ -42,7 +42,7 @@ export const reportData = [
     {
         id: 14,
         month: "Jan",
-        value1: 45,
+        value1: 30,
         value2: null
     },
     {
@@ -54,19 +54,19 @@ export const reportData = [
     {
         id: 16,
         month: "Mar",
-        value1: 45,
+        value1: 20,
         value2: null
     },
     {
         id: 17,
         month: "Apr",
-        value1: 45,
+        value1: 60,
         value2: null
     },
     {
         id: 18,
         month: "May",
-        value1: 45,
+        value1: 80,
         value2: null
     }
 ];
