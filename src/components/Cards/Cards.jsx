@@ -7,7 +7,7 @@ export default function Cards() {
     <div className='grid-one-item grid-common grid-c1'>
         <div className="grid-c-title">
             <h3 className="grid-c-title-text">Cards</h3>
-            <button className='grrid-c-title-icon'>
+            <button className='grid-c-title-icon'>
                 <img src={iconsImgs.plus} alt="plus" />
             </button>
         </div>
