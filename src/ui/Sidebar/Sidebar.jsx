@@ -19,6 +19,8 @@ export default function Sidebar() {
     }
   }, [isSidebarOpen])
 
+  console.log(isSidebarOpen)
+
   return (
     <div className={`sidebar ${sidebarClass}`}>
       <div className="user-info">
@@ -33,7 +35,7 @@ export default function Sidebar() {
             navigationLinks.map(({id, title, image}) => {
               return (
                 <li className='nav-item' key={id}>
-                <NavLink to={`${title}`} className="nav-link">
+                <NavLink to={`${title}`} className={`nav-link ${id === activeLinkIdx ? 'active' : null}`}>
                   <img src={image} alt={title} className='nav-link-icon' />
                   <span className='nav-link-text'>
                     {title}

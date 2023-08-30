@@ -48,10 +48,10 @@
         border-radius: 1.5rem;
     }
 }
-/* 
+
 .sidebar-change{
-    margin-left: 260px;
-} */
+    margin-left: -260px;
+}
 
 .nav-item{
     margin-bottom: 1rem;
