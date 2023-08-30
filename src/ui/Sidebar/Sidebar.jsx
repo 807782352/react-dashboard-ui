@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './Sidebar.css'
 import { personsImgs } from '../../utils/images'
 import { navigationLinks} from '../../data/data'
@@ -11,9 +11,16 @@ export default function Sidebar() {
   const [sidebarClass, setSidebarClass] = useState("");
   const {isSidebarOpen} = useContext(SidebarContext);
 
+  useEffect(() => {
+    if (isSidebarOpen) {
+      setSidebarClass("sidebar-change");
+    } else {
+      setSidebarClass('')
+    }
+  }, [isSidebarOpen])
 
   return (
-    <div className={`sidebar`}>
+    <div className={`sidebar ${sidebarClass}`}>
       <div className="user-info">
         <div className="info-img img-fit-cover">
           <img src={personsImgs.person_two} alt="profile image" />
