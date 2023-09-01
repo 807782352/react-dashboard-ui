@@ -25,6 +25,10 @@
     .content-grid-one {
         column-gap: 12px;
     }
+
+    .main-content-holder, .subgrid-two{
+        row-gap: 12px;
+    }
 }
 
 @media screen and (max-width: 992px){
