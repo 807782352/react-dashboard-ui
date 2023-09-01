@@ -1,0 +1,46 @@
+.grid-c5 .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.grid-c5 .grid-item:last-child {
+    margin-bottom: 0;
+}
+
+.grid-c5 .grid-item-l {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.grid-c5 .grid-item-l .icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: rgb(254, 30, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-c5 .grid-item-l .icon img{
+    width: 1.2rem;
+}
+
+.grid-c5 .grid-item-l .text {
+    color: var(--clr-silver-v1);
+}
+
+
+.grid-c5 .grid-item-l .text span {
+    color: #8a8587;
+    font-size: 15px;
+    display: block;
+}
+
+.grid-item-r span {
+    font-weight: 600;
+}
+
