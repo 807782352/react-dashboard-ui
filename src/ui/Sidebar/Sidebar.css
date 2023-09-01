@@ -111,6 +111,13 @@
         display: none;
     }
 
+    .info-img {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 32px;
+        margin-top: 10px;
+    }
+
     .nav-item{
         display: flex;
         justify-content: center;
